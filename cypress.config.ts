@@ -6,7 +6,7 @@ export default defineConfig(
     defaultCommandTimeout: 10000,
     pageLoadTimeout: 60000,
     screenshotsFolder: 'cypress/screenshots',
-    video: true, 
+    video: false, 
     reporter: 'cypress-mochawesome-reporter',
     screenshotOnRunFailure: true,
     testIsolation: false,
